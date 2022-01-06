@@ -1,0 +1,25 @@
+@Test
+@BeforeMethod
+@BeforeTest
+@BeforeClass
+
+@AfterMethod
+@AfterTest
+@AfterClass
+
+
+helper attributes:
+
+@Test(groups ={"smoke"})
+@Test(dependsOnMethods = {})
+@Test(Enabled=false)
+@Paramaters({sdasdas})
+
+
+
+
+
+Jenkins host command:java -jar jenkins.war -httpPort=8080
+
+scheudle: minute hour day month dayof week
+		5 3 * * * :at3am evry 5 min job will run
